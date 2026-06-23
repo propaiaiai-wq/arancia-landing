@@ -479,7 +479,7 @@ footer a:hover{color:var(--white)}
 // Google Apps Script web-app /exec URL for the ARANCIA sheet → DB → Telegram → CAPI.
 // Deploy the Arancia lead Apps Script and paste its /exec URL here. Leave '' to skip the
 // network post (form still confirms + fires the Lead pixel) until the backend is wired.
-const LEAD_ENDPOINT = '';
+const LEAD_ENDPOINT = 'https://script.google.com/macros/s/AKfycbxJEjaPQ2Ey3cTVa5YEK60pXJKrJ1HBvXf6Z0wRMjHD0DAiRrx3HaPLR_wEZTFhWyp2/exec';
 
 let lang = new URLSearchParams(location.search).get('lang') === 'ar' ? 'ar' : 'en';
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
